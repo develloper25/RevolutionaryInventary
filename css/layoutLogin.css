@@ -1,11 +1,11 @@
 @charset "utef-8";
 
+/* ------------------ All Html Content --------------*/
 
 body,html { width:100%; height:100%;margin:0;padding:0;}
-
-
-
 header{width:100%; height:auto;margin:0; overflow:hidden;}
+
+/* ------------------ Login Page --------------*/
 
 #login {   width: 100%; height: 100%;margin:0;}
 #loginAll {margin:0 auto;width:50%;}
@@ -17,9 +17,32 @@ header{width:100%; height:auto;margin:0; overflow:hidden;}
 #loginInputAll input{   display: block;box-sizing: border-box;margin: 3% auto 3% auto;max-width:100%;}
 #loginInputAll button{display: block; margin: 5% auto 0 auto;background-color: #53A3CD;border: none;border-radius : 8px;padding:8px 16px;cursor:pointer;Font-Size:15px;color:white;max-width:100%;}
 
+/* ------------------ Grids --------------*/
 
 #menue ul{background-color:black;  margin: 0;padding: 0;float:left;width:100%;height:auto;}
 #menue ul li{ list-style-type:none;float:left;padding: 12px 0px;}
+#menue ul li:first-child{margin:6px 0 0 0;padding:0;}
+#menue ul > li:first-child > a:hover{ background: none;}
 #menue ul li a { color: white;text-align: center; padding: 14px 14px; text-decoration: none;}
 #menue ul li a:hover{background-color: #53A3CD;}
-#menue img{width:2%;height:2%;}
+
+/* ------------------ Grids --------------*/
+
+.gridFull{display: grid;grid-template-columns: auto auto auto auto;width:100%;margin-top:100px;}
+/* fix the width of logo image*/
+.gridItem1{grid-column: 1;grid-row: 1 ;margin-left:100px;}
+.gridItem2{grid-column: 2;grid-row: 1;}
+.gridItem3{grid-column: 3;grid-row: 1 ;}
+.gridItem4{grid-column: 4;grid-row: 1; }
+
+.progressBorder{
+	border:1px solid black;
+	width:100 px;
+	height:15px;
+}
+
+.progressBar{
+	height:15px;
+	background-color:green;
+	
+}
