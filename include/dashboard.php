@@ -23,16 +23,21 @@ $perCentUsedMemory = round(getPerCentOfFreeSpace($diskUsedMemory,getSpaceInGb($d
 
 <div class ="gridFull">
 	<div class ="gridItem1">
-	<?php
-		echo "<div class='progressBorder' >";
-		echo "<div class='progressBar'  style='width:$perCentUsedMemory px'>$perCentUsedMemory</div>";
-		echo "</div>";
-	?>
 	</div>
 	<div class ="gridItem2">
+	<?php
+		echo 'Used Memory:<br><br>';
+		echo '<div class="progressBorder">';
+		echo '<div class="progressBar" '.'style="width:' . $perCentUsedMemory . 'px;"'.'><div class="progressBarFont">'.$perCentUsedMemory.'%</div></div>';
+		echo '</div>';
+	?>
 	</div>
 	<div class ="gridItem3">
 	</div>
 	<div class ="gridItem4">
+	</div>
+	<div class ="gridItem5">
+	</div>
+	<div class ="gridItem6">
 	</div>
 </div>

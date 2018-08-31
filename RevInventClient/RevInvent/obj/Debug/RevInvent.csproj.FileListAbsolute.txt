@@ -1,0 +1,10 @@
+C:\Users\mspeiser\source\repos\RevInvent\RevInvent\bin\Debug\RevInvent.exe.config
+C:\Users\mspeiser\source\repos\RevInvent\RevInvent\bin\Debug\RevInvent.exe
+C:\Users\mspeiser\source\repos\RevInvent\RevInvent\bin\Debug\RevInvent.pdb
+C:\Users\mspeiser\source\repos\RevInvent\RevInvent\obj\Debug\RevInvent.csprojAssemblyReference.cache
+C:\Users\mspeiser\source\repos\RevInvent\RevInvent\obj\Debug\RevInvent.revInventForm.resources
+C:\Users\mspeiser\source\repos\RevInvent\RevInvent\obj\Debug\RevInvent.Properties.Resources.resources
+C:\Users\mspeiser\source\repos\RevInvent\RevInvent\obj\Debug\RevInvent.csproj.GenerateResource.cache
+C:\Users\mspeiser\source\repos\RevInvent\RevInvent\obj\Debug\RevInvent.csproj.CoreCompileInputs.cache
+C:\Users\mspeiser\source\repos\RevInvent\RevInvent\obj\Debug\RevInvent.exe
+C:\Users\mspeiser\source\repos\RevInvent\RevInvent\obj\Debug\RevInvent.pdb

@@ -17,7 +17,7 @@ header{width:100%; height:auto;margin:0; overflow:hidden;}
 #loginInputAll input{   display: block;box-sizing: border-box;margin: 3% auto 3% auto;max-width:100%;}
 #loginInputAll button{display: block; margin: 5% auto 0 auto;background-color: #53A3CD;border: none;border-radius : 8px;padding:8px 16px;cursor:pointer;Font-Size:15px;color:white;max-width:100%;}
 
-/* ------------------ Grids --------------*/
+/* ------------------ Menue --------------*/
 
 #menue ul{background-color:black;  margin: 0;padding: 0;float:left;width:100%;height:auto;}
 #menue ul li{ list-style-type:none;float:left;padding: 12px 0px;}
@@ -26,23 +26,34 @@ header{width:100%; height:auto;margin:0; overflow:hidden;}
 #menue ul li a { color: white;text-align: center; padding: 14px 14px; text-decoration: none;}
 #menue ul li a:hover{background-color: #53A3CD;}
 
+/* ------------------ Links ------------------ */
+
+.active{;}
+
 /* ------------------ Grids --------------*/
 
-.gridFull{display: grid;grid-template-columns: auto auto auto auto;width:100%;margin-top:100px;}
+.gridFull{display: -ms-grid;-ms-grid-columns: 10% 20% 20% 20% 20% 10%;width:100%;margin-top:5%;}
 /* fix the width of logo image*/
-.gridItem1{grid-column: 1;grid-row: 1 ;margin-left:100px;}
-.gridItem2{grid-column: 2;grid-row: 1;}
-.gridItem3{grid-column: 3;grid-row: 1 ;}
-.gridItem4{grid-column: 4;grid-row: 1; }
+.gridItem1{-ms-grid-column: 1;-ms-grid-row: 1 ;}
+.gridItem2{-ms-grid-column: 2;-ms-grid-row: 1 ;}
+.gridItem3{-ms-grid-column: 3;-ms-grid-row: 1;}
+.gridItem4{-ms-grid-column: 4;-ms-grid-row: 1 ;}
+.gridItem5{-ms-grid-column: 5;-ms-grid-row: 1; }
+.gridItem6{-ms-grid-column: 6;-ms-grid-row: 1; }
 
 .progressBorder{
 	border:1px solid black;
-	width:100 px;
+	width:100px;
 	height:15px;
 }
 
 .progressBar{
 	height:15px;
-	background-color:green;
-	
+	background-color:#33ff33;
+}
+
+.progressBarFont{
+	margin-left:35px;
+	height:15px;
+	line-height:15px;
 }
