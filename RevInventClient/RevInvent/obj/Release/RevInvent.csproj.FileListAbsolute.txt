@@ -8,3 +8,5 @@ C:\Users\mspeiser\source\repos\RevInvent\RevInvent\obj\Release\RevInvent.csproj.
 C:\Users\mspeiser\source\repos\RevInvent\RevInvent\obj\Release\RevInvent.exe
 C:\Users\mspeiser\source\repos\RevInvent\RevInvent\obj\Release\RevInvent.pdb
 C:\Users\mspeiser\source\repos\RevInvent\RevInvent\obj\Release\RevInvent.csprojAssemblyReference.cache
+C:\Users\mspeiser\source\repos\RevInvent\RevInvent\bin\Release\MySql.Data.dll
+C:\Users\mspeiser\source\repos\RevInvent\RevInvent\obj\Release\RevInvent.csproj.CopyComplete

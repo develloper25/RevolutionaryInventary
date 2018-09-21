@@ -22,14 +22,16 @@ if(isset($_GET["nav"]))
 	<body>
 	
 	<header>
-		<?php if($nav != "login")
-		{
+		<?php if($nav != "login"){
 			include 'include/menue.php'; 
 		}
 		?>
 	</header>
+	<div id="content">
+			<?php  include 'include/' . $nav ; ?>
+	</div>
 	
-		<?php include 'include/' . $nav .'.php'; ?>
+	<?php include 'include/footer.php' ?>
 	
 	</body>
 </html>

@@ -3,7 +3,7 @@
 /* ------------------ All Html Content --------------*/
 
 body,html { width:100%; height:100%;margin:0;padding:0;}
-header{width:100%; height:auto;margin:0; overflow:hidden;}
+header{width:100%; height:auto;margin:0; }
 
 /* ------------------ Login Page --------------*/
 
@@ -18,28 +18,35 @@ header{width:100%; height:auto;margin:0; overflow:hidden;}
 #loginInputAll button{display: block; margin: 5% auto 0 auto;background-color: #53A3CD;border: none;border-radius : 8px;padding:8px 16px;cursor:pointer;Font-Size:15px;color:white;max-width:100%;}
 
 /* ------------------ Menue --------------*/
+#menue{
+	width:100%;height:40px;background-color:black;
+}
+ul{ margin: 0px;padding: 0px;list-style:none;width:100%;}
+ul li{ float:left;width:200px;height:40px;background-color:black;line-height:40px;text-align:center;font-size:20px;}
+ul li a {  text-decoration: none;color: white;display:block;}
+ul li a:hover{background-color: #53A3CD;}
+ul li ul li{
+	display:none;
+}
 
-#menue ul{background-color:black;  margin: 0;padding: 0;float:left;width:100%;height:auto;}
-#menue ul li{ list-style-type:none;float:left;padding: 12px 0px;}
-#menue ul li:first-child{margin:6px 0 0 0;padding:0;}
-#menue ul > li:first-child > a:hover{ background: none;}
-#menue ul li a { color: white;text-align: center; padding: 14px 14px; text-decoration: none;}
-#menue ul li a:hover{background-color: #53A3CD;}
+ul li:hover ul li{
+	display:block;
+}
 
 /* ------------------ Links ------------------ */
 
-.active{;}
+.active{background-color:green;}
 
 /* ------------------ Grids --------------*/
 
-.gridFull{display: -ms-grid;-ms-grid-columns: 10% 20% 20% 20% 20% 10%;width:100%;margin-top:5%;}
+.gridFull{display: -ms-grid;display:grid;-ms-grid-columns: 10% 20% 20% 20% 20% 10%;grid-template-columns:10% 20% 20% 20% 20% 10%;width:100%;margin-top:5%;}
 /* fix the width of logo image*/
-.gridItem1{-ms-grid-column: 1;-ms-grid-row: 1 ;}
-.gridItem2{-ms-grid-column: 2;-ms-grid-row: 1 ;}
-.gridItem3{-ms-grid-column: 3;-ms-grid-row: 1;}
-.gridItem4{-ms-grid-column: 4;-ms-grid-row: 1 ;}
-.gridItem5{-ms-grid-column: 5;-ms-grid-row: 1; }
-.gridItem6{-ms-grid-column: 6;-ms-grid-row: 1; }
+.gridItem1{-ms-grid-column: 1;-ms-grid-row: 1 ;grid-column:1;grid-row:1;}
+.gridItem2{-ms-grid-column: 2;-ms-grid-row: 1 ;grid-column:2;grid-row:1;}
+.gridItem3{-ms-grid-column: 3;-ms-grid-row: 1;grid-column:3;grid-row:1;}
+.gridItem4{-ms-grid-column: 4;-ms-grid-row: 1 ;grid-column:4;grid-row:1;}
+.gridItem5{-ms-grid-column: 5;-ms-grid-row: 1; grid-column:5;grid-row:1;}
+.gridItem6{-ms-grid-column: 6;-ms-grid-row: 1; grid-column:6;grid-row:1;}
 
 .progressBorder{
 	border:1px solid black;
@@ -56,4 +63,76 @@ header{width:100%; height:auto;margin:0; overflow:hidden;}
 	margin-left:35px;
 	height:15px;
 	line-height:15px;
+}
+
+footer{
+	margin:0;
+	padding:0;
+	width:100%;
+	display: table;
+	background-color:black;
+	position:absolute;
+	bottom:0;
+}
+
+#footer_menue{
+	color:white;
+	padding-top:5px;
+	padding-bottom:5px;
+	display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.computersTable{
+	border-collapse: collapse;
+	width:90%;
+	margin: 3% auto;
+	line-height:10px;
+}
+
+.computersTable th,.computersTable td{
+	border: 1px solid #ddd;
+	padding:5px;
+    text-overflow: ellipsis;
+	line-height:10px;
+	white-space: nowrap;
+	max-width:10px;
+	overflow: hidden;
+}
+
+.computersTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+.computersTable tr{
+	line-height:10px;
+}
+
+.computerDetails{
+	border-collapse: collapse;
+	width:90%;
+	margin: 3% auto;
+	line-height:auto;
+}
+
+.computerDetails th,.computerDetails td{
+	border: 1px solid #ddd;
+	padding:5px;
+	line-height:auto;
+	//white-space: nowrap;
+	max-width:10px;
+	//overflow: hidden;
+}
+
+.computerDetails th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+.computerDetails tr{
+	line-height:auto;
 }

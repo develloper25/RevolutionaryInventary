@@ -8,3 +8,7 @@ C:\Users\mspeiser\source\repos\RevInvent\RevInvent\obj\Debug\RevInvent.csproj.Ge
 C:\Users\mspeiser\source\repos\RevInvent\RevInvent\obj\Debug\RevInvent.csproj.CoreCompileInputs.cache
 C:\Users\mspeiser\source\repos\RevInvent\RevInvent\obj\Debug\RevInvent.exe
 C:\Users\mspeiser\source\repos\RevInvent\RevInvent\obj\Debug\RevInvent.pdb
+C:\Users\mspeiser\source\repos\RevInvent\RevInvent\bin\Debug\MySql.Data.dll
+C:\Users\mspeiser\source\repos\RevInvent\RevInvent\obj\Debug\RevInvent.csproj.CopyComplete
+C:\Users\mspeiser\source\repos\RevInvent\RevInvent\obj\Debug\RevInvent.Konfiguration.resources
+C:\Users\mspeiser\source\repos\RevInvent\RevInvent\obj\Debug\RevInvent.Wizard.resources
